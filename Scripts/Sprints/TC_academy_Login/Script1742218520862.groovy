@@ -21,19 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://www.saucedemo.com/')
+WebUI.navigateToUrl('https://rahulshettyacademy.com/loginpagePractise/')
 
-WebUI.setText(findTestObject('Object Repository/Sprint1/TC_Laogin/Page_Swag Labs/input_Swag Labs_user-name'), username)
+WebUI.click(findTestObject('Object Repository/Sprint1/TO_academy _Login/TO_username'))
 
-WebUI.click(findTestObject('Object Repository/Sprint1/TC_Laogin/Page_Swag Labs/input_Swag Labs_user-name'))
+WebUI.delay(3)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Sprint1/TC_Laogin/Page_Swag Labs/input_Swag Labs_password'), Password)
-
-WebUI.click(findTestObject('Object Repository/Sprint1/TC_Laogin/Page_Swag Labs/input_Swag Labs_login-button'))
-
-WebUI.click(findTestObject('Object Repository/Sprint1/TC_Laogin/Page_Swag Labs/button_Open Menu'))
-
-WebUI.click(findTestObject('Object Repository/Sprint1/TC_Laogin/Page_Swag Labs/a_Logout'))
-
-WebUI.closeBrowser()
+WebUI.setText(findTestObject('Object Repository/Sprint1/TO_academy _Login/TO_username'),'rahulshettyacademy')
 
