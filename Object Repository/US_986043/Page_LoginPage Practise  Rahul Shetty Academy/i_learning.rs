@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_learning</name>
+   <tag></tag>
+   <elementGuidId>5d4905dc-de79-4e92-b665-dd5b61d7ee53</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>b:nth-of-type(2) > i</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='login-form']/div[7]/p/b[2]/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;learning&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>bbccd2b1-1a8b-469f-b9af-4b4ce74817e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>learning</value>
+      <webElementGuid>9c72a54f-b736-4be1-8fd9-902fd5ca6f92</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;login-form&quot;)/div[@class=&quot;form-group&quot;]/p[@class=&quot;text-center text-white&quot;]/b[2]/i[1]</value>
+      <webElementGuid>4efbfae7-d636-4378-937e-e8beb0918f97</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='login-form']/div[7]/p/b[2]/i</value>
+      <webElementGuid>e0f43075-4222-45a9-8126-91de97fd3e4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='rahulshettyacademy'])[1]/following::i[1]</value>
+      <webElementGuid>dda7cd7b-18da-4588-88d4-0737e2955191</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::i[1]</value>
+      <webElementGuid>ea0f1874-61da-45d4-8a2d-68b322cfba0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Okay'])[1]/preceding::i[1]</value>
+      <webElementGuid>61c2e6fd-74d3-4dfc-a40d-436e0864745b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='learning']/parent::*</value>
+      <webElementGuid>3b0cf9f0-6abf-429e-b670-3309fd5f32fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//b[2]/i</value>
+      <webElementGuid>7be76426-e721-43b3-b2ed-667c686fb8d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//i[(text() = 'learning' or . = 'learning')]</value>
+      <webElementGuid>14c40514-3046-43cb-8f46-c480c7c9edb0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

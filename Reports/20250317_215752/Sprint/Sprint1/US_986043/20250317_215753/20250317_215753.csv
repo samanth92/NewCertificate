@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+US_986043,Chrome 134.0.0.0,,,17-03-2025 21:58:04,17-03-2025 21:58:15,10.456s,PASSED
+,,,,,,,
+Test Cases/Sprints/Comon 00/us_986043,Chrome 134.0.0.0,,,17-03-2025 21:58:05,17-03-2025 21:58:15,9.982s,PASSED
+"openBrowser("""")",Chrome 134.0.0.0,,,17-03-2025 21:58:05,17-03-2025 21:58:10,4.854s,PASSED
+"navigateToUrl(""https://rahulshettyacademy.com/loginpagePractise/"")",Chrome 134.0.0.0,,,17-03-2025 21:58:10,17-03-2025 21:58:11,0.674s,PASSED
+"click(findTestObject(""Object Repository/US_986043/Page_LoginPage Practise  Rahul Shetty Academy/i_rahulshettyacademy""))",Chrome 134.0.0.0,,,17-03-2025 21:58:11,17-03-2025 21:58:12,0.761s,PASSED
+"setText(findTestObject(""Object Repository/US_986043/Page_LoginPage Practise  Rahul Shetty Academy/input_Username_username""), ""rahulshettyacademy"")",Chrome 134.0.0.0,,,17-03-2025 21:58:12,17-03-2025 21:58:13,0.834s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/US_986043/Page_LoginPage Practise  Rahul Shetty Academy/input_Password_password""), ""1PiAXA7e6bXYOnY+D2FYUg=="")",Chrome 134.0.0.0,,,17-03-2025 21:58:13,17-03-2025 21:58:13,0.639s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/US_986043/Page_LoginPage Practise  Rahul Shetty Academy/select_StudentTeacherConsultant""), ""teach"", true)",Chrome 134.0.0.0,,,17-03-2025 21:58:13,17-03-2025 21:58:14,1.253s,PASSED
+"click(findTestObject(""Object Repository/US_986043/Page_LoginPage Practise  Rahul Shetty Academy/input_I Agree to the_signin""))",Chrome 134.0.0.0,,,17-03-2025 21:58:14,17-03-2025 21:58:15,0.443s,PASSED
