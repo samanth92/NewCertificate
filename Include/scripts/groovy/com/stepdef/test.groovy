@@ -1,4 +1,4 @@
-package us_986043
+package com.stepdef
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -43,24 +43,39 @@ import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
 
-class US_986043 {
-	
-	@Given("user can enter username")
-	public void user_want_to_login_into_the_application() {
-		//user want to login to the application
-		
+
+class test {
+	/**
+	 * The step definitions below match with Katalon sample Gherkin steps
+	 */
+	@Given("user want to login to the application")
+	public void user_want_to_login_to_the_application() {
+		WebUI.openBrowser('')
+
+		WebUI.navigateToUrl('https://www.saucedemo.com/')
 	}
 
-	@When("I check for the {int} in step")
-	public void application() {
-		
+	@When("user enter username and password")
+	public void user_enter_username_and_password() {
+
+		WebUI.click(findTestObject('Object Repository/Demo1/Page_Swag Labs/input_Swag Labs_user-name'))
+
+		WebUI.setText(findTestObject('Object Repository/Demo1/Page_Swag Labs/input_Swag Labs_user-name'), 'standard_user')
+
+		WebUI.click(findTestObject('Object Repository/Demo1/Page_Swag Labs/input_Swag Labs_password'))
+
+		WebUI.setEncryptedText(findTestObject('Object Repository/Demo1/Page_Swag Labs/input_Swag Labs_password'), 'qcu24s4901FyWDTwXGr6XA==')
+
+		WebUI.click(findTestObject('Object Repository/Demo1/Page_Swag Labs/input_Swag Labs_login-button'))
 	}
 
-	@Then("I verify the (.*) in step")
-	public void password_field() {
-		
+
+
+	@Then("user should see the application dashboard")
+	public void user_should_see_the_application_dashboard() {
+
+		WebUI.click(findTestObject('Object Repository/Demo1/Page_Swag Labs/button_Open Menu'))
+
+		WebUI.click(findTestObject('Object Repository/Demo1/Page_Swag Labs/a_Logout'))
 	}
-	
-	
 }
-

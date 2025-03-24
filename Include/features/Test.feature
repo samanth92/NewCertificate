@@ -16,20 +16,16 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-@986043
-Feature: User can able to login
+@tag
+Feature: user want to login in to the application
 
-  @12398
-  Scenario: user able to login
-    Given user can enter username 
-    When user naved to application url
-    Then next button
-    
-    @324458
-    Scenario: user able to login
-    Given user can enter username 
-    When user naved to application url
-    Then user should see the password field.
+
+  @tag1
+  Scenario: user want to login in to the application
+    Given user want to login to the application
+    When user enter username and password
+    Then user should see the application dashboard
     
 
- 
+
+   
